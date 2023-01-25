@@ -24,7 +24,7 @@ class Page1State extends State<Page1>{
     var doc = await DocumentScannerFlutter.launchForPdf(
       context,
       labelsConfig: {
-        ScannerLabelsConfig.ANDROID_NEXT_BUTTON_LABEL: "Next Steps",
+        ScannerLabelsConfig.ANDROID_NEXT_BUTTON_LABEL: "Verifier",
         ScannerLabelsConfig.PDF_GALLERY_FILLED_TITLE_SINGLE: "Only 1 Page",
         ScannerLabelsConfig.PDF_GALLERY_FILLED_TITLE_MULTIPLE:
         "Only {PAGES_COUNT} Page"
@@ -45,7 +45,7 @@ class Page1State extends State<Page1>{
     var image = await DocumentScannerFlutter.launch(context,
         //source: ScannerFileSource.CAMERA,
         labelsConfig: {
-          ScannerLabelsConfig.ANDROID_NEXT_BUTTON_LABEL: "Next Step",
+          ScannerLabelsConfig.ANDROID_NEXT_BUTTON_LABEL: "Verifier",
           ScannerLabelsConfig.ANDROID_OK_LABEL: "OK"
         });
     if (image != null) {
