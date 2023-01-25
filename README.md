@@ -35,7 +35,7 @@ try {
 ```
 
 
-## New Features! 🎊🥳😎
+
 #### PDF generation of scanned images
 ``` dart
 try {
