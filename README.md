@@ -36,6 +36,7 @@ try {
 
 
 
+
 #### PDF generation of scanned images
 ``` dart
 try {
